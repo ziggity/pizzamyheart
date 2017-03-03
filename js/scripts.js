@@ -6,7 +6,7 @@ function Pizza (pizzaSize, pizzaToppings, pizzaCrust) {
   this.cost;
 }
 Pizza.prototype.calculator = function() {
-  this.cost = 25;
+  this.cost = 15;
   if (this.size === 'personal') {
     this.cost -= 5;
   } else if (this.size === 'small') {
@@ -66,6 +66,9 @@ $(function(){
     console.log(pizzaCrust);
     console.log(goodPizza);
     $('#pizzaShow').append('<li><span class="pizzaTime">' + goodPizza.userDisplay() + '</span></li>');
-    $("formInput").reset();
+
+    $('#orderFinish').click(function(){
+          $('#formInput')[0].reset();
+    });
   });
 });
