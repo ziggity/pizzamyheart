@@ -16,7 +16,7 @@ _A website dedicated to my favorite pizza shop in Cali: It can enable the user o
 ## Specs
 
 * _Let the user order pizza, size, toppings, etc._
-input:Click here to add toppings, pick size, delivery or eat in? -
+input:Click here to add toppings, pick size, delivery or eat in?_
 output:Added mushrooms, large, eat in._
 * _Create a pizza object constructor with properties for toppings and size:_
 input:function pizza ()..._
