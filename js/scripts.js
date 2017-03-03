@@ -7,14 +7,14 @@ function Pizza (pizzaSize, pizzaToppings, pizzaCrust) {
 }
 Pizza.prototype.calculator = function() {
   this.cost = 15;
-  if (this.size === 'personal') {
-    this.cost -= 5;
-  } else if (this.size === 'small') {
+  if (this.pizzaSize === 'personal') {
+    this.cost -= 9;
+  } else if (this.pizzaSize === 'small') {
     this.cost += 1;
   }
-  else if (this.size === 'medium') {
+  else if (this.pizzaSize === 'medium') {
     this.cost += 5;
-  } else if (this.size === 'large') {
+  } else if (this.pizzaSize === 'large') {
     this.cost += 10;
   }
   if (this.pizzaCrust === 'white') {
@@ -28,21 +28,21 @@ Pizza.prototype.calculator = function() {
     this.cost += 2;
   }
   if (this.pizzaToppings === 'Mushrooms') {
-    this.cost += 1;
+    this.cost += 0;
   } else if (this.pizzaToppings === 'Peppers') {
-    this.cost += 1;
+    this.cost += 0;
   } else if (this.pizzaToppings === 'Garlic') {
-    this.cost += 1;
+    this.cost += 0;
   } else if (this.pizzaToppings === 'Peperoni') {
-    this.cost += 1;
+    this.cost += 0;
   }else if (this.pizzaToppings === 'Anchovies') {
-    this.cost += 1;
+    this.cost += 0;
   } else if (this.pizzaToppings === 'Bacon') {
-    this.cost += 1;
+    this.cost += 0;
   }else if (this.pizzaToppings === 'Tomatoes') {
-    this.cost += 1;
+    this.cost += 0;
   } else if (this.pizzaToppings === 'Sausage') {
-    this.cost += 1;
+    this.cost += 0;
   }
 };
 Pizza.prototype.userDisplay = function() {
@@ -50,7 +50,7 @@ Pizza.prototype.userDisplay = function() {
 }
 var displayIt = function() {
   $('#pizzaShow h5').text(goodPizza.userDisplay());
-  $('#toppings').text(goodPizza.pizzaToppings.join(", "));
+  $('#toppings').text(Pizza.pizzaToppings.join(", "));
   console.log(displayIt);
 }
 $(function(){
