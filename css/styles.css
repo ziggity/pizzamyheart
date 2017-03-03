@@ -1,6 +1,17 @@
-#banner {
+.banner {
   color:red;
 }
-h1{
+h2{
   color:red;
+  text-align: center;
+  font-size: 90px;
+  font-family: fantasy;
+  text-shadow: 2px 2px #000000;
+}
+
+.jumbotron {
+  background-image: url('http://www.affinity-digital.com/sites/all/themes/hoxa/images/affinity/who-we-are-banner.jpg');
+  height: 350px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
