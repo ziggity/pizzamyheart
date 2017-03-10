@@ -1,6 +1,6 @@
 # _Pizza Shop week 4_
 
-#### _Pizza My Heart}, {3/3/2017_
+#### _Pizza My Heart, 3/3/2017_
 
 #### By _**Zach Beecher**_
 
@@ -11,19 +11,19 @@ _A website dedicated to my favorite pizza shop in Cali: It can enable the user o
 ## Link to repository and GH-pages
 
 * https://github.com/ziggity/pizzamyheart
-* _GH-Pages link here_
+* https://ziggity.github.io/pizzamyheart/
 
 ## Specs
 
 * _Let the user order pizza, size, toppings, etc._
-input:Click here to add toppings, pick size, delivery or eat in?_
-output:Added mushrooms, large, eat in._
+* input:Click here to add toppings, pick size, delivery or eat in?_
+* output:Added mushrooms, large, eat in._
 * _Create a pizza object constructor with properties for toppings and size:_
-input:function pizza ()..._
-output:this.pizza = pizza etc._
+* input:function pizza ()..._
+* output:this.pizza = pizza etc._
 * _Create a pizza prototype method for cost of pizza_
-input:pizza.prototype_
-output:some formula here_
+* input:pizza.prototype_
+* output:some formula here_
 
 
 ## Setup/Installation Requirements
@@ -50,6 +50,6 @@ _HTML, CSS, Javascript, jQuery, bootstrap_
 
 ### License
 
-*{MIT license}*
+*MIT license*
 
-Copyright (c) 2016 **_{Zach Beecher - zachbeecher@gmail.com}_**
+Copyright (c) 2017 **_Zach Beecher - zachbeecher@gmail.com_**
